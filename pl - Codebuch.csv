@@ -1,0 +1,35 @@
+Codebuch,
+,
+Nodelist Kodierung,
+,
+id ,"Akteur*innen mit Typ 0 werden immer mit den Initialien des Vor- und Nachnamens angegeben, Akteur*innen des Typ 1 mit einer geeigneten Abkuerzung (identisch mit edgelist, aber hier nur einmalige Nennung)"
+name_short ,"Nachname bei Akteur*innen des Typ 0, kuerzere Beizeichnung bei Akteur*innen des Typ 1"
+name,voller Name bzw. Bezeichnung
+type ,"Typ: 0 = Person, 1 = Partei/Organisation/Ort/Verband etc. (Typ 1 beeinhaltet Orte, Ausschüsse, Unternehmen, Ehrenaemter, Parteien, Berufe...)"
+sex ,"Geschlecht: 1= weiblich, 2 = maennlich 3=divers"
+birth ,Geburtsjahr
+position ,"Taetigkeit: Staatssekretaer*in = 1, Staatsminister*in = 2, Bundesminister*in = 3"
+education ,"hoechster Abschlusss: Diplom = 1, Promotion = 2, juristisches Staatsexamen = 3, Magister Atrium = 4"
+subject,"Studienfach: Betriebswirtschaft = 1, Politikwissenschaften = 2, Volkswirtschaft = 3, Rechtswissenschaften = 4, Sozialpaedagogik = 5"
+party ,"Parteizugehoerigkeit: Gruene = 1, FDP = 2, SPD = 3"
+religion,"Konfessionszugehoerigkeit: roemisch katholisch = 1, evangelisch = 2, muslimisch = 3"
+kids,Anzahl der Kinder
+twitter ,Anzahl follower auf twitter
+instagram,Anzahl follower auf instagram
+facebook ,Anzahl follower auf Facebook
+youtube ,Anzahl Abonnent*innen auf YouTube
+,
+,
+Edgelist Kodierung,
+,
+"- from (id),",Beziehung von einem/r Akteur*in...
+- to (id),...zur naechsten Akteur*in
+- relationship,Art der Beziehung
+1,Ministerium (auch angegliedert als Staatsekretär:in)
+2,politische Funktionen --> auch Eintritt in die Partei
+3,Ehrenamt
+4,Unternehmen und Aufsichtsräte
+5,Stipendien
+6,Berufstätigkeiten
+7,Studienort in In- und Ausland
+- year ," Jahr, in dem die Variable relationship erhoben wurde"
